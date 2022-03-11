@@ -18,4 +18,4 @@ body = buffer.getvalue()
 # Body is a byte string.
 # We have to know the encoding in order to print it to a text file
 # such as standard output.
-#print(body.decode('iso-8859-1'))
+print(body.decode('iso-8859-1'))

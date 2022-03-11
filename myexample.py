@@ -1,6 +1,5 @@
 import pycurl
 from io import BytesIO
-
 buffer = BytesIO()
 c = pycurl.Curl()
 c.setopt(c.URL, 'https://openproxy.space/api')

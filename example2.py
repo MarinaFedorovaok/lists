@@ -7,7 +7,8 @@ except ImportError:
 
 buffer = BytesIO()
 c = pycurl.Curl()
-c.setopt(c.URL, 'http://pycurl.io/')
+#c.setopt(c.URL, 'http://pycurl.io/')
+c.setopt(c.URL, 'https://openproxy.space/api')
 #c.setopt(c.URL, 'http://www.proxy-list.download/api/v1/get?type=http')
 c.setopt(c.WRITEDATA, buffer)
 c.perform()
